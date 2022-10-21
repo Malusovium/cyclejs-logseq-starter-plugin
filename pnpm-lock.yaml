@@ -5,6 +5,9 @@ specifiers:
   '@cycle/run': ^5.7.0
   '@cycle/state': ^1.7.0
   '@logseq/libs': ^0.0.9
+  cyclejs-logseq-driver: link:../cyclejs-logseq-driver
+  fast-equals: ^4.0.3
+  typescript: ^4.8.4
   vite: ^3.1.8
   vite-plugin-logseq: ^1.1.2
   xstream: ^11.14.0
@@ -14,9 +17,12 @@ dependencies:
   '@cycle/run': 5.7.0
   '@cycle/state': 1.7.0
   '@logseq/libs': 0.0.9
+  cyclejs-logseq-driver: link:../cyclejs-logseq-driver
+  fast-equals: 4.0.3
   xstream: 11.14.0
 
 devDependencies:
+  typescript: 4.8.4
   vite: 3.1.8
   vite-plugin-logseq: 1.1.2
 
@@ -343,6 +349,10 @@ packages:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
     dev: false
 
+  /fast-equals/4.0.3:
+    resolution: {integrity: sha512-G3BSX9cfKttjr+2o1O22tYMLq0DPluZnYtq1rXumE1SpL/F/SLIfHx08WYQoWSIpeMYf8sRbJ8++71+v6Pnxfg==}
+    dev: false
+
   /fsevents/2.3.2:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
@@ -532,6 +542,12 @@ packages:
   /tslib/2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: false
+
+  /typescript/4.8.4:
+    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
 
   /util/0.10.4:
     resolution: {integrity: sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==}
