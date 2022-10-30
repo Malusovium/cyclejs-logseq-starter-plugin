@@ -12,16 +12,18 @@
   "author": "",
   "license": "MIT",
   "logseq": {
-    "id": "something2",
+    "id": "cycle-plugin",
     "icon": "./logo.svg"
   },
   "dependencies": {
     "@cycle/dom": "^23.1.0",
+    "@cycle/isolate": "^5.2.0",
     "@cycle/run": "^5.7.0",
     "@cycle/state": "^1.7.0",
     "@logseq/libs": "^0.0.9",
     "cyclejs-logseq-driver": "link:../cyclejs-logseq-driver",
     "fast-equals": "^4.0.3",
+    "g-style": "^1.2.12",
     "xstream": "^11.14.0"
   },
   "devDependencies": {
